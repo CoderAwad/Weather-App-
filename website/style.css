@@ -1,0 +1,108 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(images/weather-.jpg);
+    background-size: cover;
+    
+}
+
+
+
+#app{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.holder{
+    background: linear-gradient(to bottom, #33ccff 0%, #9cff99 100%);
+}
+
+.headline{
+    border: 1px solid ;
+    margin: 5px;
+    margin-bottom: 150px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+
+}
+
+
+.holder.zip{
+    margin-bottom: 50px;
+}
+
+
+.holder.feel{
+    display: grid;
+    grid-template-rows: 50px 250px 40px ;
+    margin-bottom: 50px;
+}
+
+.holder.entry{
+    width: 800px ;
+    height: 300px;
+    text-align: center;
+}
+
+label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+}
+
+textarea{
+    font-size: 25px;
+    background: linear-gradient(to bottom, #33ccff 0%, #9cff99 100%);
+}
+
+button{
+    background-color:  seagreen;
+    width: 200px;
+    margin-left: 200px;
+    cursor: pointer;
+    border: none;
+    
+    
+}
+
+button:hover{
+    background-color: mediumseagreen;
+}
+
+#date{
+    font-size: 25px;
+    color: seagreen;
+}
+
+#temp{
+    font-size: 30px;
+    color: seagreen;
+}
+
+
+#content{
+    font-size: 35px;
+    color: seagreen;
+}
+
+
+
+
+/* scroll bar handling */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #33ccff 0%, #9cff99 100%);
+  }
+  
+  
